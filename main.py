@@ -2,6 +2,7 @@ from budget import FamilyBudget
 from generator import generate_week_transactions
 from storage import save_to_json, export_csv
 from analytics import analyze_budget, create_balance_plot
+from api import app
 
 budget = FamilyBudget()
 
@@ -26,6 +27,6 @@ print("Текущий баланс:", budget.get_balance())
 
 print("Файлдар дайын.")
 
-from api import app
+if __name__ == "__main__":
 
-app.run(debug=True, port=5002)
+    app.run(debug=True, port=5002)

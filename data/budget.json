@@ -1,0 +1,362 @@
+[
+    {
+        "amount": 56556,
+        "category": "bonus",
+        "transaction_type": "income",
+        "week": 1
+    },
+    {
+        "amount": 108513,
+        "category": "salary",
+        "transaction_type": "income",
+        "week": 1
+    },
+    {
+        "amount": 192964,
+        "category": "salary",
+        "transaction_type": "income",
+        "week": 1
+    },
+    {
+        "amount": 2041,
+        "category": "food",
+        "transaction_type": "expense",
+        "week": 1
+    },
+    {
+        "amount": 107314,
+        "category": "salary",
+        "transaction_type": "income",
+        "week": 1
+    },
+    {
+        "amount": 197127,
+        "category": "salary",
+        "transaction_type": "income",
+        "week": 2
+    },
+    {
+        "amount": 8223,
+        "category": "transport",
+        "transaction_type": "expense",
+        "week": 2
+    },
+    {
+        "amount": 27523,
+        "category": "food",
+        "transaction_type": "expense",
+        "week": 2
+    },
+    {
+        "amount": 160785,
+        "category": "bonus",
+        "transaction_type": "income",
+        "week": 2
+    },
+    {
+        "amount": 6094,
+        "category": "food",
+        "transaction_type": "expense",
+        "week": 2
+    },
+    {
+        "amount": 4349,
+        "category": "food",
+        "transaction_type": "expense",
+        "week": 3
+    },
+    {
+        "amount": 4169,
+        "category": "transport",
+        "transaction_type": "expense",
+        "week": 3
+    },
+    {
+        "amount": 20782,
+        "category": "transport",
+        "transaction_type": "expense",
+        "week": 3
+    },
+    {
+        "amount": 170435,
+        "category": "salary",
+        "transaction_type": "income",
+        "week": 3
+    },
+    {
+        "amount": 3582,
+        "category": "shopping",
+        "transaction_type": "expense",
+        "week": 3
+    },
+    {
+        "amount": 28177,
+        "category": "shopping",
+        "transaction_type": "expense",
+        "week": 4
+    },
+    {
+        "amount": 19918,
+        "category": "food",
+        "transaction_type": "expense",
+        "week": 4
+    },
+    {
+        "amount": 62012,
+        "category": "salary",
+        "transaction_type": "income",
+        "week": 4
+    },
+    {
+        "amount": 3614,
+        "category": "food",
+        "transaction_type": "expense",
+        "week": 4
+    },
+    {
+        "amount": 149647,
+        "category": "bonus",
+        "transaction_type": "income",
+        "week": 4
+    },
+    {
+        "amount": 21830,
+        "category": "transport",
+        "transaction_type": "expense",
+        "week": 5
+    },
+    {
+        "amount": 147040,
+        "category": "bonus",
+        "transaction_type": "income",
+        "week": 5
+    },
+    {
+        "amount": 119986,
+        "category": "salary",
+        "transaction_type": "income",
+        "week": 5
+    },
+    {
+        "amount": 190021,
+        "category": "salary",
+        "transaction_type": "income",
+        "week": 5
+    },
+    {
+        "amount": 171178,
+        "category": "bonus",
+        "transaction_type": "income",
+        "week": 5
+    },
+    {
+        "amount": 21971,
+        "category": "shopping",
+        "transaction_type": "expense",
+        "week": 6
+    },
+    {
+        "amount": 135008,
+        "category": "salary",
+        "transaction_type": "income",
+        "week": 6
+    },
+    {
+        "amount": 58414,
+        "category": "bonus",
+        "transaction_type": "income",
+        "week": 6
+    },
+    {
+        "amount": 9773,
+        "category": "food",
+        "transaction_type": "expense",
+        "week": 6
+    },
+    {
+        "amount": 198682,
+        "category": "bonus",
+        "transaction_type": "income",
+        "week": 6
+    },
+    {
+        "amount": 180870,
+        "category": "bonus",
+        "transaction_type": "income",
+        "week": 7
+    },
+    {
+        "amount": 5681,
+        "category": "transport",
+        "transaction_type": "expense",
+        "week": 7
+    },
+    {
+        "amount": 114651,
+        "category": "bonus",
+        "transaction_type": "income",
+        "week": 7
+    },
+    {
+        "amount": 20121,
+        "category": "transport",
+        "transaction_type": "expense",
+        "week": 7
+    },
+    {
+        "amount": 8186,
+        "category": "food",
+        "transaction_type": "expense",
+        "week": 7
+    },
+    {
+        "amount": 3978,
+        "category": "food",
+        "transaction_type": "expense",
+        "week": 8
+    },
+    {
+        "amount": 90066,
+        "category": "salary",
+        "transaction_type": "income",
+        "week": 8
+    },
+    {
+        "amount": 20543,
+        "category": "food",
+        "transaction_type": "expense",
+        "week": 8
+    },
+    {
+        "amount": 13504,
+        "category": "shopping",
+        "transaction_type": "expense",
+        "week": 8
+    },
+    {
+        "amount": 18338,
+        "category": "transport",
+        "transaction_type": "expense",
+        "week": 8
+    },
+    {
+        "amount": 80029,
+        "category": "bonus",
+        "transaction_type": "income",
+        "week": 9
+    },
+    {
+        "amount": 4655,
+        "category": "transport",
+        "transaction_type": "expense",
+        "week": 9
+    },
+    {
+        "amount": 6182,
+        "category": "transport",
+        "transaction_type": "expense",
+        "week": 9
+    },
+    {
+        "amount": 119045,
+        "category": "salary",
+        "transaction_type": "income",
+        "week": 9
+    },
+    {
+        "amount": 128235,
+        "category": "salary",
+        "transaction_type": "income",
+        "week": 9
+    },
+    {
+        "amount": 148019,
+        "category": "salary",
+        "transaction_type": "income",
+        "week": 10
+    },
+    {
+        "amount": 134975,
+        "category": "bonus",
+        "transaction_type": "income",
+        "week": 10
+    },
+    {
+        "amount": 79325,
+        "category": "bonus",
+        "transaction_type": "income",
+        "week": 10
+    },
+    {
+        "amount": 8846,
+        "category": "food",
+        "transaction_type": "expense",
+        "week": 10
+    },
+    {
+        "amount": 198729,
+        "category": "salary",
+        "transaction_type": "income",
+        "week": 10
+    },
+    {
+        "amount": 177399,
+        "category": "salary",
+        "transaction_type": "income",
+        "week": 11
+    },
+    {
+        "amount": 83657,
+        "category": "bonus",
+        "transaction_type": "income",
+        "week": 11
+    },
+    {
+        "amount": 119483,
+        "category": "bonus",
+        "transaction_type": "income",
+        "week": 11
+    },
+    {
+        "amount": 191373,
+        "category": "salary",
+        "transaction_type": "income",
+        "week": 11
+    },
+    {
+        "amount": 14074,
+        "category": "shopping",
+        "transaction_type": "expense",
+        "week": 11
+    },
+    {
+        "amount": 15355,
+        "category": "shopping",
+        "transaction_type": "expense",
+        "week": 12
+    },
+    {
+        "amount": 4965,
+        "category": "food",
+        "transaction_type": "expense",
+        "week": 12
+    },
+    {
+        "amount": 66784,
+        "category": "bonus",
+        "transaction_type": "income",
+        "week": 12
+    },
+    {
+        "amount": 195207,
+        "category": "salary",
+        "transaction_type": "income",
+        "week": 12
+    },
+    {
+        "amount": 51885,
+        "category": "salary",
+        "transaction_type": "income",
+        "week": 12
+    }
+]
