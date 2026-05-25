@@ -1,32 +1,35 @@
-from flask import Flask, jsonify, send_file
+from fastapi import FastAPI
+from fastapi.responses import FileResponse
 import pandas as pd
+import uvicorn
 
-app = Flask(__name__)
+app = FastAPI()
 
-@app.route("/balance")
-def balance():
+@app.get("/balance")
+def get_balance():
 
     df = pd.read_csv("data/transactions.csv")
 
     df["signed_amount"] = df.apply(
-        lambda row: row["amount"]
+        lambda row:
+        row["amount"]
         if row["transaction_type"] == "income"
         else -row["amount"],
         axis=1
     )
 
-    result = {
-        "balance": float(df["signed_amount"].sum())
+    balance = float(df["signed_amount"].sum())
+
+    return {
+        "balance": balance
     }
 
-    return jsonify(result)
+@app.get("/csv")
+def get_csv():
+    return FileResponse("data/transactions.csv")
 
-@app.route("/csv")
-def csv_file():
-    return send_file("data/transactions.csv")
-
-@app.route("/plot")
-def plot_file():
-    return send_file("exports/balance.png")
+@app.get("/plot")
+def get_plot():
+    return FileResponse("exports/balance.png")
 
 #6

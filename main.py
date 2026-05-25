@@ -3,6 +3,7 @@ from generator import generate_week_transactions
 from storage import save_to_json, export_csv
 from analytics import analyze_budget, create_balance_plot
 from api import app
+import uvicorn
 
 budget = FamilyBudget()
 
@@ -27,6 +28,4 @@ print("Текущий баланс:", budget.get_balance())
 
 print("Файлдар дайын.")
 
-if __name__ == "__main__":
-
-    app.run(debug=True, port=5002)
+uvicorn.run(app, host="127.0.0.1", port=5002)
